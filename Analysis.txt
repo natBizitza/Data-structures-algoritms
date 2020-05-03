@@ -1,0 +1,44 @@
+Worst-Case Big-O Notation
+
+Task0:
+As the algorithm does not depend on the input data (n):
+- Worst case: O(1)
+- Approximation: O(1)
+
+Task1:
+for call in calls: #O(n)
+    unique_tele_nums.add(call[0])  #O(1)
+    unique_tele_nums.add(call[1])   
+    
+for txt in texts:
+    unique_tele_nums.add(txt[0])
+    unique_tele_nums.add(txt[1]) 
+    
+- Worst Case: O(n)
+- Approximation: O(n)
+
+Task2:
+For loop has a linear time complexity;
+Calculating max values is of linear complexity (2 times).
+- Worst Case: O(n) + O(n)
+- Approximation: O(n)
+
+Task3: 
+For loop has a logarithmic time complexity;
+The next two for loops have a quasilinear time complexity;
+Sorted() has a quasilinear time of complexity;
+Find() method is of a linear one;
+Get length is of a linear time complexity;
+- Worst case: O(log n) + 2*O(n log n) + 2*O(n)
+- Approximation: O(n log n)
+    
+
+Task4:
+For loop a linear time complexity;
+For loop and nested "in" have a quasilinear time complexity;
+Sorted() has a quasilinear time of complexity;
+- Worst case: O(n) + O(n log n) + O(n log n) + O(n)
+- Approximation: O(n log n) 
+
+
+
